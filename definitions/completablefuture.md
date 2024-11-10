@@ -1,0 +1,5 @@
+# CompletableFuture
+Es una clase de Java introducida en Java 8 como parte del paquete **java.util.concurrent**, diseñada para simplificar el trabajo con tareas asincrónicas y concurrentes, permitiendo escribir código no bloqueante de manera más intuitiva. Permite ejecutar tareas en segundo plano y realizar acciones cuando dichas tareas se completan, sin bloquear el hilo principal.
+## Concepto Básico
+* **CompletableFuture** Representa el resultado de una operación asincrónica que puede completarse en el futuro. Permite la creación y el encadenamiento de tareas que pueden ejecutarse en paralelo o secuencialmente sin bloquear el flujo principal.
+* Es una implementación de la interfaz **Future**, lo que significa que se puede usar sus métodos para consultar el estado de la tarea, cancelar la tarea y obtener el resultado de la tarea una vez que esté disponible.
